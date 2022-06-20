@@ -6,6 +6,7 @@ h1{font-size: 45px;
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .first{
     color: rgb(128, 29, 199);
@@ -30,4 +31,8 @@ section{
     background-image: linear-gradient(to left bottom, rgb(252, 138, 118), tomato);
     font-weight: 700;
     border-radius: 10px;
+}
+.top-section{
+    background-image: url(Pictures/top-banner.png);
+    background-repeat: no-repeat;
 }
