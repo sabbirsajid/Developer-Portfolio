@@ -1,1 +1,33 @@
-h1{color: blueviolet;}
+h1{font-size: 45px;
+    font-family: ;
+}
+#sp{
+    color: rgb(241, 183, 34);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.first{
+    color: rgb(128, 29, 199);
+    text-align: justify;
+}
+.per{
+    text-align: justify;
+}
+section{
+    display: flex;
+}
+.half{
+    width: 50%;
+    padding: 5px;
+}
+.half img{
+    width: 80%;
+}
+.watch-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(to left bottom, rgb(252, 138, 118), tomato);
+    font-weight: 700;
+    border-radius: 10px;
+}
