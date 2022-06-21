@@ -13,7 +13,7 @@ body{
 .per{
     text-align: justify;
 }
-section{
+.flex{
     display: flex;
     height: 500px;
     padding-bottom: 150px;
@@ -47,4 +47,63 @@ section{
 }
 .pic{
     padding:  20px ;
+}
+.sec3{
+    box-shadow: 10px 10px 40px rgb(156, 151, 151);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    height: 70%;
+}
+h2{
+    font-size: 35px;
+}
+.section-3{
+    background-image: url(Pictures/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#box1{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#box2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+.sec-ft{
+    display: flex;
+    padding-bottom: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.aus{
+    text-align: left;
+    margin-left: 5%;
+   
+}
+.fpic{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.foot{
+    background-image: linear-gradient(180deg, lightsalmon, purple);
+}
+.about{
+    text-decoration: none;
+    color: black;
+}
+h5{
+    font-size: 15px;
 }
